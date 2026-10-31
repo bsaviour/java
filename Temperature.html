@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .converter-box { border: 1px solid #000; padding: 20px; width: 300px; margin-top: 20px; }
+        button { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="converter-box">
+        <h2>Temperature Converter</h2>
+        <label>Enter Celsius:</label>
+        <input type="number" id="cel">
+        <br>
+        <button onclick="convert()">Convert</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function convert() {
+            let c = document.getElementById("cel").value;
+            let f = (c * 9/5) + 32;
+            document.getElementById("result").innerText = "Fahrenheit: " + f;
+        }
+    </script>
+</body>
+</html>
