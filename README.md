@@ -17,16 +17,16 @@ Remember this is for WINDOWS ! steps for UBUNTU will be added soon !
   
 color-app steps-  
   
-```npx create-react-app color-app          //create folder with required files  ```
-```cd color-app                            //go to directory of color-app  ```
-```npm start                               //start server/website  ```
+```npx create-react-app color-app          //create folder with required files  ```  
+```cd color-app                            //go to directory of color-app  ```  
+```npm start                               //start server/website  ```  
 
 spa-app steps-
 
-```npx create-react-app spa-app           //create folder with required files  ```
-```cd spa-app                             //go to directory of spa-app  ```
-```npm install react-router-dom           //install needed dom thing  ```
-```npm start                              //start server/website  ```
+```npx create-react-app spa-app           //create folder with required files  ```  
+```cd spa-app                             //go to directory of spa-app  ```  
+```npm install react-router-dom           //install needed dom thing  ```  
+```npm start                              //start server/website  ```  
   
 after doing this the website won't show anything before you put main code inside "App.js"  
 the website start on "available" localhost ports like 8000, 3000  
